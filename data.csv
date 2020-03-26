@@ -1,0 +1,422 @@
+﻿label,intent,query
+0,Promotions,what promotions do you have?
+0,Promotions,what promotions are available?
+0,Promotions,promotions
+0,Promotions,I want to see promotions
+0,Promotions,view promotions
+0,Promotions,where are your promotions
+0,Promotions,show your promotions
+0,Promotions,let me see your promotions
+0,Promotions,please show promotions
+1,"Deposit, Loan and Investment Promotions",
+2,Card Promotions,what card promotions do you have?
+2,Card Promotions,what card promotions are available?
+2,Card Promotions,card promotions
+2,Card Promotions,I want to see card promotions
+2,Card Promotions,view card promotions
+2,Card Promotions,where are your card promotions
+2,Card Promotions,show your card promotions
+2,Card Promotions,let me see your card promotions
+2,Card Promotions,please show card promotions
+3,Open Account,i want to open an account
+3,Open Account,where can i sign up for an account?
+3,Open Account,help me set up a bank account
+3,Open Account,how to open a bank account?
+3,Open Account,i want to sign up for a bank account
+3,Open Account,bank account registration
+3,Open Account,steps for signing up for a bank account.
+3,Open Account,
+4,OCBC Singapore Account,open an OCBC account in singapore
+4,OCBC Singapore Account,how to open Singapore OCBC account
+4,OCBC Singapore Account,help me set up a bank account in singapore
+4,OCBC Singapore Account,how to open a bank account in singapore?
+4,OCBC Singapore Account,i want to sign up for a bank account in singapore
+4,OCBC Singapore Account,singapoeran bank account registration
+4,OCBC Singapore Account,steps for signing up for a Singaporean bank account.
+5,OCBC Securities Account ,how to open a securities account?
+5,OCBC Securities Account ,i want to open a securities account
+5,OCBC Securities Account ,steps to open securities account
+5,OCBC Securities Account ,open a securities account
+5,OCBC Securities Account ,please open a securities account for me
+6,OCBC Malaysia Account,open bank account in malaysia
+6,OCBC Malaysia Account,how to open account in malaysia?
+6,OCBC Malaysia Account,open Malaysian bank account
+6,OCBC Malaysia Account,open OCBC account in Malaysia
+6,OCBC Malaysia Account,
+7,NISP Account,how to open NSIP account
+7,NISP Account,where can i sign up for a NISP account?
+7,NISP Account,help me set up a NISP account
+7,NISP Account,i want to sign up for a NISP account
+7,NISP Account,NISP bank account registration
+7,NISP Account,i want to open an NSIP account
+7,NISP Account,
+8,Card Cancellation,I want to cancel my card
+8,Card Cancellation,how to cancel card
+8,Card Cancellation,card cancellation 
+8,Card Cancellation,I want to terminate my card
+8,Card Cancellation,how to terminate card
+8,Card Cancellation,card termination
+8,Card Cancellation,
+9,Cancel Credit or Debit Card,how do i cancel my frank credit card?
+9,Cancel Credit or Debit Card,how do I cancel debit card?
+9,Cancel Credit or Debit Card,how to cancel credit card?
+9,Cancel Credit or Debit Card,how to cancel debit card?
+9,Cancel Credit or Debit Card,cancel frank credit card
+9,Cancel Credit or Debit Card,cancel credit card
+9,Cancel Credit or Debit Card,cancel debit card
+9,Cancel Credit or Debit Card,debit card cancellation
+9,Cancel Credit or Debit Card,i want to terminate my credit card
+9,Cancel Credit or Debit Card,I want to terminate my debit card
+9,Cancel Credit or Debit Card,how do i shut down my credit card?
+9,Cancel Credit or Debit Card,show down my debit card
+9,Cancel Credit or Debit Card,i dont want my credit card anymore
+9,Cancel Credit or Debit Card,I don't want to use my debit card anymore
+9,Cancel Credit or Debit Card,please cancel my credit card
+9,Cancel Credit or Debit Card,please cancel my debit card
+9,Cancel Credit or Debit Card,terminate my credit card
+9,Cancel Credit or Debit Card,i dont want to use my non plus card anymore
+9,Cancel Credit or Debit Card,i want to terminate my non plus credit card
+9,Cancel Credit or Debit Card,i dont want to use my plus card anymore
+9,Cancel Credit or Debit Card,cancel my plus card
+9,Cancel Credit or Debit Card,i want to terminate my plus credit card
+9,Cancel Credit or Debit Card,how to cancel plus card
+9,Cancel Credit or Debit Card,cancelling my plus card
+10,Cancel ATM Card,how do i cancel my atm card
+10,Cancel ATM Card,how to cancel atm card?
+10,Cancel ATM Card,cancel atm card
+10,Cancel ATM Card,atm card cancellation
+10,Cancel ATM Card,please cancel my atm card
+10,Cancel ATM Card,steps for cancelling atm card
+10,Cancel ATM Card,cancellation of atm card
+11,Speak with a customer service officer,i want to speak with a customer service officer
+11,Speak with a customer service officer,can i speak to a bank officer?
+11,Speak with a customer service officer,i want to talk to a human being
+11,Speak with a customer service officer,can i speak with a human?
+11,Speak with a customer service officer,contact customer representative
+11,Speak with a customer service officer,put me through to a customer service officer
+11,Speak with a customer service officer,can someone call me back?
+11,Speak with a customer service officer,speak to bank officer
+11,Speak with a customer service officer,talk to human
+11,Speak with a customer service officer,speak with person
+11,Speak with a customer service officer,talk to person
+11,Speak with a customer service officer,i dont want to speak with a chatbot
+11,Speak with a customer service officer,i dont want to talk to a chatbot
+11,Speak with a customer service officer,i dont want to talk to a bot
+11,Speak with a customer service officer,who can i speak with regarding
+11,Speak with a customer service officer,i want to talk to a real person
+11,Speak with a customer service officer,i want to talk to a bank officer
+11,Speak with a customer service officer,i want to talk to a customer service officer
+12,Collections,
+13,Insurance,
+14,Securities,
+15,Business Banking,
+16,Branches,
+17,Contact Centre,
+18,Request for sponsorship,how can i get ocbc to sponsor my event?
+18,Request for sponsorship,can ocbc sponsor my school event?
+18,Request for sponsorship,how to engage ocbc as a sponsor?
+18,Request for sponsorship,i want a sponsor for my event
+18,Request for sponsorship,i am looking for a sponsor for a charity event
+18,Request for sponsorship,does ocbc give sponsorship for charitable events?
+18,Request for sponsorship,will OCBC provide sponsorship for event?
+18,Request for sponsorship,sponsorship for charity event
+18,Request for sponsorship,i want to get sponsorship for my charity
+18,Request for sponsorship,can ocbc give sponsorships for events?
+19,Repricing,how to request for a repricing of my loan?
+19,Repricing,i want to reprice my loan
+19,Repricing,how to reprice?
+19,Repricing,i need to reprice my loan.
+19,Repricing,How can i reprice the loan?
+19,Repricing,what are the repricing options for loans?
+19,Repricing,show me the loan repricing options
+19,Repricing,how to go about repricing my loan?
+19,Repricing,what are my loan repricing options?
+19,Repricing,repricing options?
+19,Repricing,show me how to reprice my loan
+20,Auto Loan,I need to reprice my auto loan
+20,Auto Loan,how can i reprice my car loan?
+20,Auto Loan,repricing options for car loan
+20,Auto Loan,show me how to reprice my auto loan
+20,Auto Loan,can i reprice my car loan?
+20,Auto Loan,i'm exploring repricing options for my auto loan
+20,Auto Loan,what are the repricing options for auto loans?
+21,Home Loan,I need to reprice my home loan
+21,Home Loan,how can i reprice my house loan?
+21,Home Loan,repricing options for house loan
+21,Home Loan,show me how to reprice my home loan
+21,Home Loan,can i reprice my housing loan?
+21,Home Loan,i'm exploring repricing options for my house loan
+21,Home Loan,what are the repricing options for home loans?
+22,Service Fee,why was i charged a service fee?
+22,Service Fee,why must i pay service fee?
+22,Service Fee,i want to waive my service fee.
+22,Service Fee,why should i have to pay service fee?
+22,Service Fee,i don't want to pay service fees.
+22,Service Fee,how to waive the service fee.
+22,Service Fee,why must i pay fees for my account?
+22,Service Fee,why was i charged fees for my account?
+22,Service Fee,why was i charged additional fees?
+22,Service Fee,i dont want to pay additional transaction fees
+22,Service Fee,how to waive transaction fee?
+22,Service Fee,why must i pay additional transaction fees?
+23,Token Replacement,i need to replace my token
+23,Token Replacement,how do i replace my token?
+23,Token Replacement,i need a new token
+23,Token Replacement,how to get a new token
+23,Token Replacement,i lost my token and need to replace it
+23,Token Replacement,where can i get a new token?
+23,Token Replacement,where can i replace my token?
+23,Token Replacement,i want to get a new token.
+24,Token Activation,i want to activate my token
+24,Token Activation,activate one token
+24,Token Activation,activate token
+24,Token Activation,activate onetoken
+24,Token Activation,how to use the token?
+24,Token Activation,how to activate my token?
+24,Token Activation,show me how to activate onetoken
+24,Token Activation,
+25,Hardware Token,hardware token activation
+25,Hardware Token,how to activate hardware token
+25,Hardware Token,i need to activate my hardware token
+25,Hardware Token,help me activate hardware token
+25,Hardware Token,hardware token
+25,Hardware Token,what must i do to activate my hardware token?
+26,Onetoken,onetoken activation
+26,Onetoken,one token activation
+26,Onetoken,i need to activate my onetoken
+26,Onetoken,show me how to activate my one token
+26,Onetoken,steps for activating one token
+27,No,
+28,Yes,
+29,Late fee waiver,request to waive late fee charge
+29,Late fee waiver,i want to waive my credit card late fee charge
+29,Late fee waiver,how to get a waiver for late fee charges?
+29,Late fee waiver,i dont want to pay my late fee charges. please waive.
+29,Late fee waiver,i need to waive my late fee charges
+29,Late fee waiver,credit card late fee waiver.
+29,Late fee waiver,late fee waiver 
+29,Late fee waiver,please waive my late fee
+29,Late fee waiver,loan late fee waiver
+29,Late fee waiver,i want a fee waiver for my loan
+29,Late fee waiver,can i waive my fee for my loan?
+29,Late fee waiver,how to get a fee waiver for my loan?
+29,Late fee waiver,how can i apply for a late fee waiver for loan?
+29,Late fee waiver,request for a loan late fee waiver
+29,Late fee waiver,easicredit late fee waiver
+29,Late fee waiver,how to get fee waiver for easicredit?
+29,Late fee waiver,i want a late fee waiver for easicredit.
+29,Late fee waiver,request for easicredit late fee waiver
+30,Late fee waiver for Loans,
+31,Late fee waiver for credit card,credit card
+32,Late fee waiver for EasiCredit,
+33,Credit card interest waiver,request for waiver of credit card interest
+33,Credit card interest waiver,request for waiver of the interest charged to my cred card.
+33,Credit card interest waiver,i want a waiver for my credit card interest.
+33,Credit card interest waiver,credit card interest waiver
+33,Credit card interest waiver,please waive my credit card interest
+33,Credit card interest waiver,how to get waiver for credit card interest
+33,Credit card interest waiver,waive my credit card interest
+33,Credit card interest waiver,waive my card interest
+33,Credit card interest waiver,i want a credit card interest waiver
+34,Request for account fee waiver,i want to waive the fee charged to my account
+34,Request for account fee waiver,bank account fee waiver
+34,Request for account fee waiver,why do i have to pay a fee for my account?
+34,Request for account fee waiver,please waive my account fee
+34,Request for account fee waiver,i want a waiver for my account
+34,Request for account fee waiver,give me a waiver for my bank account.
+34,Request for account fee waiver,account fee waiver
+34,Request for account fee waiver,what is the minimum balance needed for my account
+34,Request for account fee waiver,account minimum balance
+34,Request for account fee waiver,
+35,Uplift suspension on accounts,why is my account suspended?
+35,Uplift suspension on accounts,how do i unsuspend my account?
+35,Uplift suspension on accounts,i need to unsuspend my account
+35,Uplift suspension on accounts,how to uplift suspension on accounts?
+35,Uplift suspension on accounts,account suspended. I need to access my account.
+35,Uplift suspension on accounts,help with suspended account
+35,Uplift suspension on accounts,i have been locked out of my account
+35,Uplift suspension on accounts,unable to use my account
+35,Uplift suspension on accounts,why am i locked out of my account?
+35,Uplift suspension on accounts,how to unlock my account?
+35,Uplift suspension on accounts,i need help to unlock my account
+35,Uplift suspension on accounts,need help unlocking my account
+35,Uplift suspension on accounts,
+36,Loan Enquiry,how to apply for loan?
+36,Loan Enquiry,i need to borrow money
+36,Loan Enquiry,where can i get a quick loan?
+36,Loan Enquiry,am i allowed to apply or a loan?
+36,Loan Enquiry,what do i need to apply for a loan?
+36,Loan Enquiry,criteria for applying for a loan
+36,Loan Enquiry,what kind of loans do you have
+36,Loan Enquiry,types of loans
+36,Loan Enquiry,i want a loan
+36,Loan Enquiry,i want to apply for a loan
+36,Loan Enquiry,how to get a loan?
+36,Loan Enquiry,how to borrow money from the bank?
+37,Home and property loans,I need a home loan
+37,Home and property loans,i want a property loan
+37,Home and property loans,enquiry for housing loan
+37,Home and property loans,enquiry for home loan
+37,Home and property loans,where to get a home loan?
+37,Home and property loans,what must i do to get a home loan?
+37,Home and property loans,criteria for property loan
+37,Home and property loans,criteria for home loan
+37,Home and property loans,how to get a property loan?
+37,Home and property loans,how to get a housing loan
+38,Personal Loans,I need a personal loan
+38,Personal Loans,i want a personal loan
+38,Personal Loans,enquiry for personal loan
+38,Personal Loans,enquiry for personal loan
+38,Personal Loans,where to get a personal loan?
+38,Personal Loans,what must i do to get a personal loan?
+38,Personal Loans,criteria for personal loan
+38,Personal Loans,how to qualify for a personal loan
+38,Personal Loans,apply for personal loan
+39,365 Card Application,how do i apply for a 365 card?
+39,365 Card Application,i want to apply for a 365 credit card.
+39,365 Card Application,steps for applying for a credit card
+39,365 Card Application,do i qualify for a 365 credit card?
+39,365 Card Application,how to apply for ATM card?
+39,365 Card Application,i want to apply for a 365 card
+39,365 Card Application,apply for 365 card
+40,Paying a cancelled credit card,how to pay for a cancelled credit card?
+40,Paying a cancelled credit card,how can i pay for a credit card that has already been cancelled?
+40,Paying a cancelled credit card,i need  to pay for my cancelled credit card.
+40,Paying a cancelled credit card,paying for a cancelled credit card
+40,Paying a cancelled credit card,paying for credit card which has been cancelled
+40,Paying a cancelled credit card,"i just cancelled my credit card, how can i pay my balance?"
+40,Paying a cancelled credit card,pay outstanding charges for cancelled credit card
+40,Paying a cancelled credit card,how to pay my outstanding balance for credit card?
+40,Paying a cancelled credit card,
+40,Paying a cancelled credit card,
+41,How to close my account,how to close my bank account?
+41,How to close my account,i want to shut down my account.
+41,How to close my account,i need to terminate my account
+41,How to close my account,shut down my bank accout
+41,How to close my account,close my bank acct
+41,How to close my account,close bank account online
+41,How to close my account,how to close bank acct?
+42,Credit card transaction dispute,how to check credit card transaction
+42,Credit card transaction dispute,money deducted for transaction i did not make
+42,Credit card transaction dispute,wrong deduction for credit card transaction
+42,Credit card transaction dispute,why am i charged for something i did not pay
+42,Credit card transaction dispute,credit card transaction dispute
+42,Credit card transaction dispute,card deduction is wrong.
+42,Credit card transaction dispute,there is a mistake in my credit card transaction
+42,Credit card transaction dispute,extra charges in my credit card statement
+43,Change credit card limit,how to change credit card limit?
+43,Change credit card limit,i need to change my credit card limit
+43,Change credit card limit,i want to change my credit card limit
+43,Change credit card limit,show me how to change card limit
+43,Change credit card limit,change card limit
+43,Change credit card limit,help to change my credit card limit
+44,Increase credit card limit,i want to increase my credit card limit
+44,Increase credit card limit,raise my card limit
+44,Increase credit card limit,how to raise credit card limit?
+44,Increase credit card limit,i need a higher credit limit
+44,Increase credit card limit,i want to spend more on my credit card
+44,Increase credit card limit,i want to raise my credit card limit
+44,Increase credit card limit,how to increase card limit?
+45,Decrease credit card limit,please reduce my credit card limit
+45,Decrease credit card limit,how to decrease my card limit?
+45,Decrease credit card limit,lower my credit card limit
+45,Decrease credit card limit,reduce my credit card limit
+45,Decrease credit card limit,i want to reduce my card limit
+45,Decrease credit card limit,how to lower my card limit?
+45,Decrease credit card limit,reduce card limit
+46,Credit card application rejection,why was my credit card application rejected?
+46,Credit card application rejection,i got rejected for my credit card. why?
+46,Credit card application rejection,reason for credit card rejection?
+46,Credit card application rejection,unsuccessful application of credit card.
+46,Credit card application rejection,i dont know why my credit card application was rejected
+46,Credit card application rejection,why didn't my card application get approved?
+46,Credit card application rejection,what are the requirements for credit card application?
+46,Credit card application rejection,why was my credit card application unsuccessful?
+46,Credit card application rejection,unsuccessful application of credit card
+47,Rebates,why are my credit card rebates so low this month?
+47,Rebates,how to check rebates?
+47,Rebates,credit card rebates too low!
+47,Rebates,i want to check my rebates
+47,Rebates,rebate entitlement
+47,Rebates,what rebates do i have?
+47,Rebates,where can i view my rebates?
+48,How to redeem rewards,how do i redeem my rewards?
+48,How to redeem rewards,how to get my ocbc$?
+48,How to redeem rewards,i want to redeem my points
+48,How to redeem rewards,how to make redemption?
+48,How to redeem rewards,how to redeem ROB$ rewards?
+48,How to redeem rewards,how to get my voyage miles?
+48,How to redeem rewards,i want to make a redemption
+48,How to redeem rewards,how can i redeem my voyage miles?
+48,How to redeem rewards,redemption of ocbc$
+48,How to redeem rewards,make a redemption for voyage miles
+49,360 Account interest dispute,why is my interest so low?
+49,360 Account interest dispute,my 360 account interest is too low
+49,360 Account interest dispute,why is my interest rate so low?
+49,360 Account interest dispute,dispute interest amount.
+49,360 Account interest dispute,low 360 account interest
+49,360 Account interest dispute,account interest too low
+49,360 Account interest dispute,bonus interest is not correct
+49,360 Account interest dispute,incorrect bonus interest
+49,360 Account interest dispute,incorrect interest payment for 360 account
+49,360 Account interest dispute,step up bonus
+49,360 Account interest dispute,step up interest
+49,360 Account interest dispute,salary bonus rate
+49,360 Account interest dispute,salary bonus
+49,360 Account interest dispute,wealth bonus
+49,360 Account interest dispute,wealth interest
+50,All bonuses,
+51,Step up bonus,
+52,Wealth bonus,
+53,Salary bonus,
+53,Salary bonus,
+54,Statement Request,I need my statement
+54,Statement Request,where can i download my statement?
+54,Statement Request,how can i get a copy off my statement?
+54,Statement Request,where can i go to get my account statement?
+54,Statement Request,can you mail me my statement?
+54,Statement Request,i want a hard copy of my account statement.
+55,Passbook savings account statement,Passbook savings account statement
+55,Passbook savings account statement,I want my passbook savings account statement
+55,Passbook savings account statement,where can i find a hard copy of my savings account statement?
+55,Passbook savings account statement,can u send me my savings account statement?
+56,Credit card statement,I need my credit card statement
+56,Credit card statement,can i have my credit card account statement?
+56,Credit card statement,can send me a copy of my credit card statement?
+56,Credit card statement,i want my credit card statement
+56,Credit card statement,where can i view my credit card statement?
+56,Credit card statement,show me my credit card statement
+56,Credit card statement,send me my credit card statement
+57,Debit card statement,i need my debit card statement
+57,Debit card statement,can i download my debit card statement?
+57,Debit card statement,where can i get a copy of my debit card statement?
+57,Debit card statement,how can i get my debit card statement?
+57,Debit card statement,show me my debit card statement
+57,Debit card statement,send me my debit card statement
+57,Debit card statement,i want my debit card statement
+57,Debit card statement,i want to view my debit statement
+58,Investment account statement,send me my investment account statement.
+58,Investment account statement,i need my investment account statement
+58,Investment account statement,where can i get my investment account statement?
+58,Investment account statement,mail me my investment statements
+58,Investment account statement,send me my investment statements
+58,Investment account statement,give me my investment account statements
+58,Investment account statement,show me  the investment statements
+58,Investment account statement,i want my investment account statements
+58,Investment account statement,where to get my investment statements?
+59,Update details,how do i update my home address?
+59,Update details,how to update personal particulars?
+59,Update details,"i just moved house, how to update my address?"
+59,Update details,"i shifted house, how to update home address?"
+59,Update details,i need to update my house address
+59,Update details,where can i change my phone number?
+59,Update details,i would like to update my phone number.
+59,Update details,how to update telephone number
+59,Update details,update my telephone number
+59,Update details,where to update contact number
+59,Update details,i need to update contact number
+59,Update details,how to update contact number
+59,Update details,update mailing address
+59,Update details,i need to update my email address.
+59,Update details,how to update email address?
+59,Update details,can i update my email address?
