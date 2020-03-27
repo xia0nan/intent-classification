@@ -16,6 +16,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
+from gensim.models import KeyedVectors
+
 def string_clean(text):
     """ Basic text cleaning """
     # Remove numbers
@@ -75,6 +77,11 @@ def get_data(path):
     df = df.drop(df[df.label == 31].index)
     return df
 
+def load_word2vec():
+    # !wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+    EMBEDDING_FILE = 'GoogleNews-vectors-negative300.bin.gz' # from above
+    word2vec = KeyedVectors.load_word2vec_format(EMBEDDING_FILE, binary=True)
+    return word2vec
 
 def sentence_embedding(method='tfidf', word2vec_model=None):
     # 1. load data
@@ -102,13 +109,13 @@ def sentence_embedding(method='tfidf', word2vec_model=None):
         # Use word2vec
         index2word_set = set(word2vec_model.index2word)
         if method == 'word2vec':
-            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('model_text')], model=word2vec_model, num_features=300,
+            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('query')], model=word2vec_model, num_features=300,
                                   index2word_set=index2word_set) for i in range(len(data))]
 
         # Use word2vec + idf
         elif method == 'idf-word2vec':
-            idf = compute_idf_weights(data['model_text'])
-            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('model_text')], model=word2vec_model, num_features=300,
+            idf = compute_idf_weights(data['query'])
+            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('query')], model=word2vec_model, num_features=300,
                                index2word_set=index2word_set, idf=idf) for i in range(len(data))]
         emb = np.array(emb)
         similarity = cosine_similarity(emb)
