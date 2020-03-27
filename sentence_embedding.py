@@ -1,30 +1,19 @@
 """
-Text clustering based on TF-IDF and DBSCAN
+Text clustering based on TF-IDF and word2vec
 """
 import re
 import math
-from string import punctuation
 
 import numpy as np
 import pandas as pd
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.cluster import DBSCAN
 from sklearn.metrics.pairwise import cosine_similarity
-
-from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
-
 from gensim.models import KeyedVectors
 
 def string_clean(text):
-    """ Basic text cleaning """
-    # Remove numbers
-    # Remove punctuations
-    # Remove single character
-    # Stemming
-    
+    """ Basic text cleaning: lowercase and remove special characters """
     text = text.lower()
     text = re.sub(r'[^a-z0-9] \n', '', text)
     return text
@@ -67,17 +56,17 @@ def compute_idf_weights(doc_list):
     return idf
 
 
-def get_data(path):
+def get_data(path="data.csv"):
     """ load data from csv """
-    # read data
+    # read data, default "./data.csv"
     df = pd.read_csv(path)
-    # drop na
     df = df.dropna()
-    # drop label with only one query
+    # drop label with only one query (through EDA)
     df = df.drop(df[df.label == 31].index)
     return df
 
 def load_word2vec():
+    # Download word2vec
     # !wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
     EMBEDDING_FILE = 'GoogleNews-vectors-negative300.bin.gz' # from above
     word2vec = KeyedVectors.load_word2vec_format(EMBEDDING_FILE, binary=True)
@@ -91,7 +80,7 @@ def sentence_embedding(method='tfidf', word2vec_model=None):
     # 2. Preprocessing
     data['query'] = data['query'].apply(string_clean)
 
-    # 3. Tokenizing
+    # 3. Tokenizing using NLTK
     def tokenize(s): 
         return " ".join(word_tokenize(s))
     data['query'] = data['query'].apply(tokenize)
@@ -99,7 +88,9 @@ def sentence_embedding(method='tfidf', word2vec_model=None):
     # 4. Get similarity matrix and distnace
     if method == 'tfidf':
         # Use tfidf alone to calculate similarity
-        tfidf = TfidfVectorizer(lowercase=True, stop_words="english", ngram_range=(1, 3)).fit_transform(data['model_text'].values.astype('U'))
+        tfidf = TfidfVectorizer(lowercase=True, 
+                                stop_words="english", 
+                                ngram_range=(1, 3)).fit_transform(data['query'].values.astype('U'))
 
         # cosine similarity
         similarity = tfidf * tfidf.T
@@ -109,22 +100,24 @@ def sentence_embedding(method='tfidf', word2vec_model=None):
         # Use word2vec
         index2word_set = set(word2vec_model.index2word)
         if method == 'word2vec':
-            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('query')], model=word2vec_model, num_features=300,
-                                  index2word_set=index2word_set) for i in range(len(data))]
+            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('query')], 
+                                      model=word2vec_model, num_features=300,
+                                      index2word_set=index2word_set) for i in range(len(data))]
 
         # Use word2vec + idf
         elif method == 'idf-word2vec':
             idf = compute_idf_weights(data['query'])
-            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('query')], model=word2vec_model, num_features=300,
-                               index2word_set=index2word_set, idf=idf) for i in range(len(data))]
+            emb = [build_sentence_vec(data.iloc[i, data.columns.get_loc('query')], 
+                                      model=word2vec_model, num_features=300,
+                                      index2word_set=index2word_set, 
+                                      idf=idf) for i in range(len(data))]
         emb = np.array(emb)
         similarity = cosine_similarity(emb)
         distance = 1 - similarity
 
     return distance
 
-## Download word2vec
-# !wget -P /root/input/ -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
-# from gensim.models import KeyedVectors
-# EMBEDDING_FILE = '/root/input/GoogleNews-vectors-negative300.bin.gz' # from above
-# word2vec = KeyedVectors.load_word2vec_format(EMBEDDING_FILE, binary=True)
+# TODO: 
+# 1. def cluster_centre()
+# 2. def test(text)
+# 3. pipeline?
