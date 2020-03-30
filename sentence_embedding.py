@@ -15,7 +15,7 @@ from gensim.models import KeyedVectors
 def string_clean(text):
     """ Basic text cleaning: lowercase and remove special characters """
     text = text.lower()
-    text = re.sub(r'[^a-z0-9] \n', '', text)
+    text = re.sub(r'[^a-z0-9\s]', '', text)
     return text
 
 def build_sentence_vec(sentence, model, num_features, index2word_set, idf=None):
