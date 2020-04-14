@@ -117,6 +117,47 @@ def sentence_embedding(method='tfidf', word2vec_model=None):
 
     return distance
 
+def test_word2vec_idf():
+    sen = "test cat and dog"
+    
+    idf = {}
+    idf["test"] = 1/3.
+    idf["cat"] = 1/3.
+    idf["and"] = 0.
+    idf["dog"] = 1/3.
+    
+    words = sen.split()
+    words = [word for word in words if word in word2vec.vocab]
+    
+    idf_series = np.array([idf[word] for word in words])
+    print(idf_series.reshape(1, -1).shape)
+    idf_series = idf_series.reshape(1, -1).shape
+    
+    print(word2vec[words].shape)
+    result = np.matmul(idf_series.reshape(1, -1), word2vec[words]).reshape(-1)
+    print(result.shape)
+    
+    emb1 = word2vec[words].mean(axis=0)
+    emb2 = result
+    
+    assert emb1 == emb2
+    return result
+
+def get_sentence_vec(sentence, word2vec, idf=None):
+    words = sentence.split()
+    words = [word for word in words if word in word2vec.vocab]
+    # use mean if no idf provided
+    if idf is None:
+        emb = word2vec[words].mean(axis=0)
+    else:
+        # get all idf of words
+        idf_series = np.array([idf[word] for word in words])
+        # change shape to 1 x num_of_words
+        idf_series = idf_series.reshape(1, -1)
+        # use matrix multiplication to get weighted word vector sum for sentence embeddings
+        emb = np.matmul(idf_series, word2vec[words]).reshape(-1)
+    return emb
+
 # TODO: 
 # 1. def cluster_centre()
 # 2. def test(text)
