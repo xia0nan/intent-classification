@@ -1,0 +1,129 @@
+Question,User Clicked intent,Google-intent
+how do i submit a dispute? ,Cancel credit card transaction,Dispute status
+I lost my card,Lost or compromised cards,Lost or compromised cards
+"I have not received my purchases from the merchant,  how can I cancel it ",Cancel credit card transaction,Cancel ATM Card
+i have a transaction that i did not do,Cancel credit card transaction,Cancel credit card transaction
+how to terminate my card?,Cancel Credit or Debit Card,Card Cancellation
+can you reverse my transaction?,Cancel credit card transaction,Cancel credit card transaction
+how do i get a replacement card?,Damaged or Faulty card,Damaged or Faulty card
+i want to dispute my card transaction,Card dispute,Card dispute
+i need a PIN for my credit card,Reset PIN,Reset PIN
+activate card for overseas use,Card activation for overseas use,Card activation for overseas use
+how do i change my address?,Update details,Update details
+Is it possible to recall a transaction i made to the wrong person?,Cancel credit card transaction,Cancel credit card transaction
+credit card application status ,Card application status,Card application status
+mobile banking unable to log in ,Mobile Banking Issues,Mobile Banking Issues
+i have hard ware token. how do i opt in for one token? ,Token Activation,Token Replacement
+waiver of credit card fees,Annual Fee Waiver,Annual Fee Waiver
+how do i cancel my credit card? ,Cancel Credit or Debit Card,Cancel Credit or Debit Card
+how do i report a fraudulent transanction? ,Account Fraud,Account Fraud
+how do i receive sms notification for deposit?,SMS Alerts,SMS Alerts
+waiver of credit card fees,Annual Fee Waiver,Annual Fee Waiver
+how do i set up notification for my credit card bill?,SMS Alerts,Apply for credit or debit cards
+i cannot log in to internet banking,Unable to log into internet banking,Reset PIN
+why did you charge me this amount,Card dispute,Card dispute
+i want to sell my car,Car loan full settlement,Car loan full settlement
+my token cannot press,Token Replacement,Token Replacement
+delete my card. i wont pay for the fee,Cancel Credit or Debit Card,Card Cancellation
+where is the cashback for my grab transactions,Card dispute,Account Fraud
+why i cannot withdraw money from ATM,Damaged or Faulty card,Apply for ATM card
+the rebate shown on my statement is not correct,Rebates,Rebates
+"I have a transaction i dont recognise, how can I dispute?",Dispute status,Dispute status
+I want to reprice my housing loan,Reprice home loan,Reprice home loan
+"my token is not working, what should i do?",Token Replacement,Damaged or Faulty card
+"I forgot my PIN, how do i get a new one?",Reset PIN,Reset PIN
+"i tried using my PIN earlier, but cannot log in, error message shows incorrect",Speak with a customer service officer,Reset PIN
+"I have lost my wallet and credit cards, what should i do?",Lost or compromised cards,Lost or compromised cards
+i am overseas and my wallet is stolen with my atm & credit cards. Help!,Cancel ATM Card,Apply for ATM card
+"i forgot my internet banking and overseas now, how?",Unable to log into internet banking,Unable to log into internet banking
+late fee waiver,Interest or Late fee waiver,Interest or Late fee waiver
+how do i close my credit card account?,Cancel Credit or Debit Card,Cancel Credit or Debit Card
+"I have shifted to a new place, how can I change my mailing address?",Update details,Update details
+"i received my statement yesterday but the credit card rebate is wrong, how?",Rebates,Rebates
+How come i didnt receive any rebate for my credit card statement last month?,Rebates,Rebates
+how do i do a TT?,Make a telegraphic transfer,Make a telegraphic transfer
+"I am supposed to receive some funds but I still dont see it , how?",Telegraphic transfer Status,Telegraphic transfer Status
+"I am waiting for some funds but i dont see it, how to check?",Funds Transfer Status,Funds Transfer Status
+"my token has no battery, what should i do?",Token Replacement,Token Replacement
+"i need a statement for my home loan, how do i ask for it?",Home loan account statement,Home loan account statement
+"I received a letter telling me my account is dormant, what should i do?",Dormant Account Activation,Dormant Account Activation
+Can i request for a statement?,Statement request,Statement request
+i want to reprice my loan,Reprice home loan,Repricing
+car loan full payment,Car loan full settlement,Car loan full settlement
+"i am a malaysian with work permit, how do i open an account",Account opening for foreigners,Open OCBC Malaysia Account
+can i apply for more credit limit? ,Increase credit card limit,Increase credit card limit
+i lost my card,Lost or compromised cards,Lost or compromised cards
+i did not get my bonus interest,360 Account interest dispute,360 Account interest dispute
+what is my access code,Access codes for banking services,Access codes for banking services
+how to invest using srs,SRS Contribution,Investment accounts
+i want to cancel my card,Card Cancellation,Card Cancellation
+refund my money from my card,Credit Refund,Credit Refund
+i want to close my savings account,How to close my account,How to close my account
+how to close my cpfia,How to close my account,How to close my account
+i did not receive my statements,Statement request,Card accounts
+What is my average balance?,Request for account fee waiver,Request for account fee waiver
+how do i change my address?,Update details,Update details
+How do i replace my hardware token?,Token Replacement,Token Replacement
+How do i activate my OneToken?,Token Activation,Token Activation
+how do i close my account?,How to close my account,How to close my account
+what is the time deposit promotion currently?,Promotions,Promotions
+how do i open an account?,Open Account,Open Account
+how do i reset my internet banking PIN?,Reset PIN,Reset PIN
+how do i increase my credit limit?,Increase credit card limit,Increase credit card limit
+I want to apply for sup card. how?,Supplementary card application,Supplementary card application
+what are interest rate for home loan?,Reprice home loan,Reprice home loan
+how do i transfer to overseas account?,Make a telegraphic transfer,Make a telegraphic transfer
+how to increase my card limit,Increase credit card limit,Increase credit card limit
+how to uplift  my card suspension?,Uplift suspension on accounts,Uplift suspension on accounts
+repayment of home loan,Home loan repayment,Home loan repayment
+why have I not received my statements on email?,Card statements,Card accounts
+i want to apply for a voyage card ,Apply for credit or debit cards,Apply for credit or debit cards
+i want to redeem rewards,How to redeem rewards,How to redeem rewards
+i cannot access my internet banking,Unable to log into internet banking,Unable to log into internet banking
+reset access code,Access codes for banking services,Access codes for banking services
+How do i replace my hardware token,Token Replacement,Token Replacement
+I forgot my access code and PIN,Access codes for banking services,Access codes for banking services
+How do i replace my card,Replace Card,Replace Card
+How do i block my card,Replace Card,Replace Card
+How do i apply for a supplementary card,Supplementary card application,Supplementary card application
+Can i do repricing for my loan?,Repricing,Repricing
+How to cancel my card,Card Cancellation,Card Cancellation
+What is this service charge?,Service Fee,Service Fee
+How do i apply for a debit card,Apply for credit or debit cards,Apply for credit or debit cards
+How to update my mailing address?,Update details,Update details
+Why are my accounts suspended?,Uplift suspension on accounts,Uplift suspension on accounts
+how to pay my outstanding for my terminated card?,Paying a cancelled credit card,Paying a cancelled credit card
+How do i close my account? ,How to close my account,How to close my account
+how can i top up my srs account? ,SRS Contribution,SRS Contribution
+what is my access code? ,Access codes for banking services,Access codes for banking services
+how to calculate my credit card rebates,Rebates,Rebates
+360 account interest calculation ,360 Account interest dispute,360 Account interest dispute
+how to reset my pin ,Reset PIN,Reset PIN
+hardware token faulty ,Token Replacement,Token Activation
+lost hardware token ,Token Replacement,Token Activation
+I want a copy of last month statement,Statement request,Statement request
+What is the current deposit promotion?,Promotions,Promotions
+I want to update my address,Update details,Update details
+I want to update my contact numbers,Update details,Update details
+How can I close my account?,How to close my account,How to close my account
+I like to apply a personal loan,Loan Enquiry,Loan Enquiry
+Please waive off the late fee,Interest or Late fee waiver,Interest or Late fee waiver
+I like to have a copy of the statement,Statement request,Statement request
+How can I pay off my loan?,Loan Enquiry,Car loan full settlement
+I want to get a housing loan,Loan Enquiry,Reprice home loan
+I want to pay off my housing loan,Home loan repayment,Reprice home loan
+I want to pay off my car financing,Car loan full settlement,Car loan full settlement
+waiver for credit card,Annual Fee Waiver,Interest or Late fee waiver
+how to redeem my OCBC $,How to redeem rewards,How to redeem rewards
+how do i reset my internet PIN,Reset PIN,Reset PIN
+how to apply for supp card,Supplementary card application,Supplementary card application
+i need replacement of hardware token,Token Replacement,Token Activation
+fraud on my credit card,Account Fraud,Increase credit card limit
+how to pay terminated credit card,Paying a cancelled credit card,Paying a cancelled credit card
+payment for credit card,Paying a cancelled credit card,Paying a cancelled credit card
+May I know what is OCBC hotline?,Speak with a customer service officer,File a complaint
+"I just received my card statement, and notice I did not make one of the transaction. How can I dispute this transaction?",Card dispute,Card accounts
+I want to transfer money to SRS account. How to do that?,SRS Contribution,SRS Contribution
+I requested to waive my credit card fee but rejected. Please terminate my credit card as I do not want to pay. Thanks!,Paying a cancelled credit card,Annual Fee Waiver
+how to activate onetoken,Token Activation,Token Activation
+i want to update my mobile number,Update details,Update details

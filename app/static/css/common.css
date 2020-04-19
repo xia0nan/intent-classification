@@ -1,0 +1,13 @@
+#site_title{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#section_json_output{
+    display: none;
+    margin-top: 40px;
+}
+
+#json_output{
+    margin-top: -20px;
+}
