@@ -1,0 +1,1 @@
+gunicorn -w 1 --timeout=1200 -b :8002 app:app

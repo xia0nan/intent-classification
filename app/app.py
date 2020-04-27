@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, render_template, request
 import pandas as pd
 import logging
-from infer import get_intent_nlp, get_intent_nlp_clustering
+from infer import get_intent_nlp_clustering
 
 app = Flask(__name__)
 
@@ -9,20 +9,18 @@ app = Flask(__name__)
 def home():
     return render_template("test.html")
 
-@app.route('/get_intent_nlp', methods=['POST'])
+@app.route('/get_intent_nlp_clustering', methods=['POST'])
 def ajax_api():
     question = request.json['question']
-    intents, inference_time = get_intent_nlp(question, None)
-    intents = intents.to_json(orient='records')
+    intents = get_intent_nlp_clustering(question)
     data = {
-        'intents': intents,
-        'inference_time': inference_time
+        'intents': intents
     }
     return jsonify(data)
 
 # %% main
 if __name__ == '__main__':
-    app.run(threaded=False, debug=True, host='127.0.0.1', port=5002)
+    app.run(threaded=False, debug=True, host='0.0.0.0', port=5002, use_reloader=False)
 
 # %% gunicorn
 if __name__ != '__main__':
